@@ -18,4 +18,6 @@ spring:
             server:
                 git:
                     uri: https://github.com/antoniosai/edustar-config-server.git
+                    searchPaths: '{application}'
+                    default-label: master
         enabled: true
